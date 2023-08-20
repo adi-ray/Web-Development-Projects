@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+            height: 480px;
+            background-color: white;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .card img{
+            height: 50%;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h2{
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+        .card p{
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="images/qrcode.jpg" >
+
+            <h2>Improve your front end skills by building projects</h2>
+
+            <p>Scan the QR Code to visit Front End mentor and take your coding skill to next level</p>
+        </div>
+    </div>
+
+</body>
+</html>
