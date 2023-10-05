@@ -42,33 +42,6 @@ To run this QR code generator on your local machine, follow these steps:
 5. Your QR code will be displayed on the screen.
 
 
-
-## Contributing
-
-If you would like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-
-2. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add your feature description"
-   ```
-
-4. Push your changes to your fork:
-
-   ```bash
-   git push origin feature/your-feature
-   ```
-
-5. Open a pull request to the main repository's `master` branch.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
