@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    text-align: center;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#addButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.taskItem button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
